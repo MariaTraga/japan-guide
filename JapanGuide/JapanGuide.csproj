@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E91BA95-4CB5-4C96-BE3E-026236B6A5BA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>JapanGuide</RootNamespace>
+    <AssemblyName>JapanGuide</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="NAudio, Version=1.10.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.1.10.0\lib\net35\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attraction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Attraction.Designer.cs">
+      <DependentUpon>Attraction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Events.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Events.designer.cs">
+      <DependentUpon>Events.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Food.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Food.Designer.cs">
+      <DependentUpon>Food.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JapanMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JapanMap.Designer.cs">
+      <DependentUpon>JapanMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMenuStrip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomMenuStrip.Designer.cs">
+      <DependentUpon>CustomMenuStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Slideshow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Slideshow.Designer.cs">
+      <DependentUpon>Slideshow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SoundControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SoundControl.designer.cs">
+      <DependentUpon>SoundControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transportation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transportation.designer.cs">
+      <DependentUpon>Transportation.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Attraction.resx">
+      <DependentUpon>Attraction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Events.resx">
+      <DependentUpon>Events.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Food.resx">
+      <DependentUpon>Food.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JapanMap.resx">
+      <DependentUpon>JapanMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomMenuStrip.resx">
+      <DependentUpon>CustomMenuStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Slideshow.resx">
+      <DependentUpon>Slideshow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SoundControl.resx">
+      <DependentUpon>SoundControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transportation.resx">
+      <DependentUpon>Transportation.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\Amanohasidate_INFO.rtf" />
+    <None Include="Resources\bonfestival.rtf" />
+    <None Include="Resources\Dazaifu_INFO.rtf" />
+    <EmbeddedResource Include="Resources\Festivals.csv" />
+    <None Include="Resources\firefestival.rtf" />
+    <None Include="Resources\Fukuoka_INFO.rtf" />
+    <None Include="Resources\gionfestival.rtf" />
+    <None Include="Resources\gyoza.rtf" />
+    <None Include="Resources\hanami.rtf" />
+    <None Include="Resources\Hokkaido_INFO.rtf" />
+    <None Include="Resources\Kansai_INFO.rtf" />
+    <None Include="Resources\Kanto_INFO.rtf" />
+    <None Include="Resources\Kitakyushu_INFO.rtf" />
+    <None Include="Resources\Kyoto_INFO.rtf" />
+    <None Include="Resources\Kyushu_INFO.rtf" />
+    <None Include="Resources\nagasakifestival.rtf" />
+    <None Include="Resources\ramen.rtf" />
+    <None Include="Resources\sake.rtf" />
+    <None Include="Resources\sanjafestival.rtf" />
+    <None Include="Resources\snowfestival.rtf" />
+    <None Include="Resources\sushi.rtf" />
+    <None Include="Resources\takayamafestival.rtf" />
+    <None Include="Resources\tr_info.rtf" />
+    <None Include="Resources\tr_planes.rtf" />
+    <None Include="Resources\tr_ships.rtf" />
+    <None Include="Resources\tr_trains.rtf" />
+    <None Include="Resources\Uji_INFO.rtf" />
+    <None Include="Resources\icons8_info_80px.png" />
+    <None Include="Resources\exit_animated.gif" />
+    <None Include="Resources\exit_static.gif" />
+    <None Include="Resources\back.png" />
+    <Content Include="Resources\users.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hakodate.rtf" />
+    <None Include="Resources\Kamakura.rtf" />
+    <None Include="Resources\Kawasaki.rtf" />
+    <None Include="Resources\Matsumae_INFO.rtf" />
+    <None Include="Resources\Sapporo_INFO.rtf" />
+    <None Include="Resources\SLIDE_IMAGE1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_previous_45px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_next_45px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SLIDE_IMAGE2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SLIDE_IMAGE3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leaves.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Japan.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_mute_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_voice_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\events.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sightseeing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tokyo.rtf" />
+    <None Include="Resources\transport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titles.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_sakura.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_sakura.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map_japan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nagashaki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map-hokkaido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map-kansai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map-kanto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map-kyushu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_sakura_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_sakura_50px_flipped.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kawasaki.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tokyo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kamakura.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tokyo_IMAGE1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tokyo_IMAGE2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tokyo_IMAGE3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kawasaki_IMAGE1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kawasaki_IMAGE2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kawasaki_IMAGE3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kamakura_IMAGE1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kamakura_IMAGE2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kamakura_IMAGE3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kawasaki_MAP.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kamakura_MAP.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tokyo_MAP.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Attractions_GIF.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Matsumae_IMAGE1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Matsumae_IMAGE2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Matsumae_IMAGE3-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sapporo_MAP.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sapporo_IMAGE1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sapporo_IMAGE2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sapporo_IMAGE3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hakodate_MAP.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hakodate_IMAGE1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hakodate_IMAGE2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hakodate_IMAGE3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uji_IMAGE1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uji_IMAGE2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uji_IMAGE3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Uji_MAP.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyoto_IMAGE1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyoto_IMAGE2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyoto_IMAGE3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyoto_MAP.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amanohashidate_MAP.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amanohasidate_IMAGE1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amanohasidate_IMAGE2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amanohasidate_IMAGE3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kitakyushu_IMAGE1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kitakyushu_IMAGE2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kitakyushu_IMAGE3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kitakyushu_MAP.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fukuoka_IMAGE1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fukuoka_IMAGE2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fukuoka_IMAGE3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fukuoka_MAP.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dazaifu_IMAGE1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dazaifu_IMAGE2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dazaifu_IMAGE3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dazaifu_MAP.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hokkaido_LIST.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kansai_LIST.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kyushu_LIST.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kanto_LIST.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Matsumae_MAP.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sake.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gyoza.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sushi.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ramen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ramen_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sake_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sushi_animated.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sushi_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gyoza_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gyoza_animated.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plane.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plane_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tr_ships.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\train.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\train_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boat.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boat_static.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_key_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_user_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koi.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lanterns.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hanami3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nagasakifestival2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nagasakifestival3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\obonfestival1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\obonfestival2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gionfestival2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gionfestival3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hanami1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hanami2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nagasakifestival1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\obonfestival3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sanjafestival1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sanjafestival2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sanjafestival3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowfestival1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowfestival2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snowfestival3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\takayamafestival1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\takayamafestival2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\takayamafestival3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firefestival1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firefestival2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firefestival3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gionfestival1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

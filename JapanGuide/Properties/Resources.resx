@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Amanohashidate_IMAGE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Amanohasidate_IMAGE1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amanohashidate_IMAGE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Amanohasidate_IMAGE2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amanohashidate_IMAGE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Amanohasidate_IMAGE3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Amanohashidate_INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Amanohasidate_INFO.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Amanohashidate_MAP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Amanohashidate_MAP.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Attractions_GIF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Attractions_GIF.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boat.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boat_static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boat_static.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonfestival" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bonfestival.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="bonfestival1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obonfestival1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonfestival2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obonfestival2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bonfestival3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\obonfestival3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dazaifu_IMAGE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dazaifu_IMAGE1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dazaifu_IMAGE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dazaifu_IMAGE2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dazaifu_IMAGE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dazaifu_IMAGE3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dazaifu_INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dazaifu_INFO.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Dazaifu_MAP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dazaifu_MAP.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="events" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\events.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_animated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit_animated.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit_static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit_static.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Festivals" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Festivals.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="firefestival" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\firefestival.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="firefestival1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\firefestival1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="firefestival2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\firefestival2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="firefestival3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\firefestival3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fukuoka_IMAGE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fukuoka_IMAGE1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fukuoka_IMAGE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fukuoka_IMAGE2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fukuoka_IMAGE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fukuoka_IMAGE3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fukuoka_INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fukuoka_INFO.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Fukuoka_MAP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fukuoka_MAP.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gionfestival" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gionfestival.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="gionfestival1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gionfestival1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gionfestival2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gionfestival2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gionfestival3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gionfestival3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gyoza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gyoza.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="gyoza_animated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gyoza_animated.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gyoza_static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gyoza_static.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hakodate_IMAGE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hakodate_IMAGE1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hakodate_IMAGE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hakodate_IMAGE2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hakodate_IMAGE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hakodate_IMAGE3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hakodate_INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hakodate.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Hakodate_MAP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hakodate_MAP.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hanami" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hanami.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="hanami1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hanami1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hanami2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hanami2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hanami3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hanami3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hokkaido_INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hokkaido_INFO.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Hokkaido_LIST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hokkaido_LIST.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="icons8_info_80px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_info_80px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_key_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_key_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_mute_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_mute_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_sakura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_sakura.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_sakura1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_sakura.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="icons8_sakura_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_sakura_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_sakura_50px_flipped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_sakura_50px_flipped.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_user_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_user_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_voice_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_voice_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_next_45px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_next_45px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_previous_45px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_previous_45px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Japan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Japan.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Kamakura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kamakura.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kamakura_IMAGE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kamakura_IMAGE1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kamakura_IMAGE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kamakura_IMAGE2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kamakura_IMAGE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kamakura_IMAGE3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kamakura_INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kamakura.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Kamakura_MAP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kamakura_MAP.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kansai_INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kansai_INFO.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Kansai_LIST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kansai_LIST.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Kanto_INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kanto_INFO.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Kanto_LIST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kanto_LIST.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Kawasaki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kawasaki.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kawasaki_IMAGE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kawasaki_IMAGE1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kawasaki_IMAGE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kawasaki_IMAGE2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kawasaki_IMAGE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kawasaki_IMAGE3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kawasaki_INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kawasaki.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Kawasaki_MAP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kawasaki_MAP.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kitakyushu_IMAGE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kitakyushu_IMAGE1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kitakyushu_IMAGE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kitakyushu_IMAGE2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kitakyushu_IMAGE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kitakyushu_IMAGE3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kitakyushu_INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kitakyushu_INFO.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Kitakyushu_MAP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kitakyushu_MAP.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="koi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\koi.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kyoto_IMAGE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kyoto_IMAGE1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kyoto_IMAGE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kyoto_IMAGE2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kyoto_IMAGE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kyoto_IMAGE3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kyoto_INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kyoto_INFO.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Kyoto_MAP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kyoto_MAP.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kyushu_INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kyushu_INFO.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Kyushu_LIST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kyushu_LIST.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="lanterns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lanterns.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leaves" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leaves.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_hokkaido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map-hokkaido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_japan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map_japan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_kansai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map-kansai.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_kanto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map-kanto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="map_kyushu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\map-kyushu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Matsumae_IMAGE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Matsumae_IMAGE1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Matsumae_IMAGE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Matsumae_IMAGE2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Matsumae_IMAGE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Matsumae_IMAGE3-.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Matsumae_INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Matsumae_INFO.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Matsumae_MAP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Matsumae_MAP.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nagasakifestival" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nagasakifestival.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="nagasakifestival1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nagasakifestival1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nagasakifestival2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nagasakifestival2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nagasakifestival3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nagasakifestival3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nagashaki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nagashaki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plane.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plane_static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plane_static.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ramen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ramen.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ramen_animated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ramen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ramen_static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ramen_static.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sake.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="sake_animated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sake.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sake_static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sake_static.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sanjafestival" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sanjafestival.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="sanjafestival1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sanjafestival1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sanjafestival2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sanjafestival2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sanjafestival3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sanjafestival3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sapporo_IMAGE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sapporo_IMAGE1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sapporo_IMAGE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sapporo_IMAGE2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sapporo_IMAGE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sapporo_IMAGE3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sapporo_INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sapporo_INFO.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Sapporo_MAP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sapporo_MAP.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sightseeing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sightseeing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SLIDE_IMAGE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SLIDE_IMAGE1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SLIDE_IMAGE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SLIDE_IMAGE2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SLIDE_IMAGE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SLIDE_IMAGE3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowfestival" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snowfestival.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="snowfestival1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snowfestival1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowfestival2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snowfestival2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snowfestival3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snowfestival3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sushi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sushi.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="sushi_animated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sushi_animated.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sushi_static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sushi_static.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="takayamafestival" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\takayamafestival.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="takayamafestival1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\takayamafestival1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="takayamafestival2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\takayamafestival2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="takayamafestival3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\takayamafestival3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="titles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\titles.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Tokyo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tokyo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tokyo_IMAGE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tokyo_IMAGE1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tokyo_IMAGE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tokyo_IMAGE2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tokyo_IMAGE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tokyo_IMAGE3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tokyo_INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tokyo.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Tokyo_MAP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tokyo_MAP.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="train" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\train.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="train_static" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\train_static.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tr_info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tr_info.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="tr_planes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tr_planes.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="tr_ships" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tr_ships.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="tr_trains" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tr_trains.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Uji_IMAGE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Uji_IMAGE1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uji_IMAGE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Uji_IMAGE2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uji_IMAGE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Uji_IMAGE3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Uji_INFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Uji_INFO.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Uji_MAP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Uji_MAP.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="users" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\users.csv;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+</root>
